@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@button": ["./button.tsx"],
+      "@components/*": ["./*"],
+      "@utils": ["./utils.ts"]
+    }
+  }
+}

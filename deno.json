@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "start": "deno run --allow-read --allow-write src/main.ts",
+    "cli": "deno run --allow-read --allow-write src/cli.ts",
+    "test": "deno test --allow-read tests/"
+  },
+  "imports": {
+    "@std/": "https://deno.land/std@0.224.0/"
+  },
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true
+  }
+}

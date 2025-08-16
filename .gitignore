@@ -1,0 +1,17 @@
+# Deno
+.venv
+.env
+.DS_Store
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

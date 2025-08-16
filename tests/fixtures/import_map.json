@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "button": "./button.tsx",
+    "components/": "./",
+    "utils": "./utils.ts"
+  }
+}
