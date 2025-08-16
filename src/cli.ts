@@ -1,15 +1,13 @@
 #!/usr/bin/env -S deno run --allow-read --allow-write
 
 import { parseArgs } from "https://deno.land/std@0.224.0/cli/parse_args.ts";
-import { basename } from "https://deno.land/std@0.224.0/path/basename.ts";
-import { dirname } from "https://deno.land/std@0.224.0/path/dirname.ts";
+import { basename } from "https://deno.land/std@0.224.0/path/basename.ts"; 
 import { scan, type ScannerOptions } from "./scanner.ts";
 import { findImporters, findDirectoryImporters } from "./resolver.ts";
 import {
   formatOutput,
   formatDirectoryOutput,
-  type ImporterResult,
-  type DirectoryImporterResult
+  type ImporterResult, 
 } from "./output.ts";
 
 // Define types for our CLI options

@@ -1,8 +1,6 @@
 import { assertEquals } from "https://deno.land/std@0.224.0/assert/mod.ts";
 import { formatDirectoryText, formatJson, formatOutput, formatText } from "../src/output.ts";
-import { StringWriter } from "https://deno.land/std@0.224.0/io/string_writer.ts";
-import { Buffer } from "https://deno.land/std@0.224.0/io/buffer.ts";
-
+ 
 // Mock console.log to capture output
 const originalConsoleLog = console.log;
 
